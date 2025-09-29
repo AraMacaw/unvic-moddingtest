@@ -9,7 +9,6 @@
 		"science": 2,
 		"maintenance": 1,
 		"isNationalWonder": true,
-		"unique": ["[+200]% Production when constructing wonders [in all cities]", "[+2 Production] in cities on [all] tiles", "[+1 Science] in cities on [all] tiles"],
 		"requiredBuildingInAllCities": "Colosseum",
 		"requiredTech": "Horseback Riding"
 	},
