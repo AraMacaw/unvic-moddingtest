@@ -1,25 +1,27 @@
 [
 	{
-		"name": "Holodeck",
+		"name": "Cum",
 		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
+		"uniqueTo": "Amogus",
 		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
+		"happiness": 24,
+		"culture": 24,
+		"science": 2,
+		"maintenance": 1,
 		"isNationalWonder": true,
 		"requiredBuildingInAllCities": "Colosseum",
 		"requiredTech": "Horseback Riding"
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
+		"name": "Couille",
+		"replaces": "Monument",
+		"uniqueTo": "Amogus",
 		"cost": 80,
 		"hurryCostModifier": 160,
 		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
+		"production": 3,
+		"culture": 12,
+		"uniques": ["[+1 Science] per [1] population [in this city]", "[+1 Production] per [1] population [in this city]", "[+1 Gold] per [1] population [in this city]"],
 		"requiredTech": "Engineering"
 	}
 ]
