@@ -1,0 +1,14 @@
+[
+	{
+		"name": "[Balistic] ability",
+		"uniques": ["[1] Range"]
+	},
+	{
+		"name": "[Advanced Balistic] ability",
+		"uniques": ["[1] Range"]
+	},
+	{
+		"name": "[Advanced Movement] ability",
+		"uniques": ["[1] Movement"]
+	},
+]

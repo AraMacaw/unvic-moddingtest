@@ -23,5 +23,48 @@
 		"culture": 12,
 		"uniques": ["[+1 Science] per [1] population [in this city]", "[+1 Production] per [1] population [in this city]", "[+1 Gold] per [1] population [in this city]"],
 		"requiredTech": "Engineering"
-	}
+	},
+	{
+		"name": "Balistic research",
+		"uniqueTo": "Amogus",
+		"cost": 580,
+		"culture": 2,
+		"science": 10,
+		"maintenance": 1,
+		"isNationalWonder": true,
+		"uniques": ["All newly-trained [Ranged] units [in your cities] receive the [Balistic] promotion"]
+		"requiredTech": "Physics"
+	},
+	{
+		"name": "Adv. Balistic research",
+		"uniqueTo": "Amogus",
+		"cost": 1080,
+		"culture": 6,
+		"science": 20,
+		"maintenance": 4,
+		"isNationalWonder": true,
+		"uniques": ["All newly-trained [Ranged] units [in your cities] receive the [Advanced Balistic] promotion"]
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Mobility research",
+		"uniqueTo": "Amogus",
+		"cost": 820,
+		"culture": 2,
+		"science": 10,
+		"maintenance": 3,
+		"isNationalWonder": true,
+		"uniques": ["All newly-trained [Ranged] units [in your cities] receive the [Advanced Movemen] promotion"]
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Organised Workforce",
+		"uniqueTo": "Amogus",
+		"cost": 80,
+		"hurryCostModifier": 160,
+		"happiness": 1,
+		"production": 8,
+		"uniques": ["[+1 Production] per [1] population [in this city]"],
+		"requiredTech": "Masonry"
+	},
 ]
