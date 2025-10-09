@@ -54,7 +54,7 @@
 		"science": 10,
 		"maintenance": 3,
 		"isNationalWonder": true,
-		"uniques": ["All newly-trained [Ranged] units [in your cities] receive the [Advanced Movement] promotion"]
+		"uniques": ["All newly-trained [Military] units [in your cities] receive the [Advanced Movement] promotion"]
 		"requiredTech": "Machinery"
 	},
 	{
@@ -66,5 +66,14 @@
 		"production": 8,
 		"uniques": ["[+1 Production] per [1] population [in this city]"],
 		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Training Ground",
+		"uniqueTo": "Amogus",
+		"cost": 80,
+		"happiness": 1,
+		"science": 2,
+		"production": 4,
+		"uniques": ["[+1] Range <for [Ranged] units>", "All newly-trained [Military] units [in your cities] receive the [Learning Experience] promotion"],
 	},
 ]
