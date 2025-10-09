@@ -1,14 +1,18 @@
 [
 	{
-		"name": "[Balistic] ability",
-		"uniques": ["[1] Range"]
+		"name": "Balistic",
+		"uniques": ["[+1] Range"]
 	},
 	{
-		"name": "[Advanced Balistic] ability",
-		"uniques": ["[1] Range"]
+		"name": "Advanced Balistic",
+		"uniques": ["[+1] Range"]
 	},
 	{
-		"name": "[Advanced Movement] ability",
-		"uniques": ["[1] Movement"]
+		"name": "Advanced Movement",
+		"uniques": ["[+1] Movement"]
 	},
+	{
+		"name": "Learning Experience",
+		"uniques": ["[+200]% XP gained from combat"]
+	},	
 ]
