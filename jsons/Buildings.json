@@ -54,7 +54,7 @@
 		"science": 10,
 		"maintenance": 3,
 		"isNationalWonder": true,
-		"uniques": ["All newly-trained [Ranged] units [in your cities] receive the [Advanced Movemen] promotion"]
+		"uniques": ["All newly-trained [Ranged] units [in your cities] receive the [Advanced Movement] promotion"]
 		"requiredTech": "Machinery"
 	},
 	{
