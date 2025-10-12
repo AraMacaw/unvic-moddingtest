@@ -74,6 +74,21 @@
 		"happiness": 1,
 		"science": 2,
 		"production": 4,
+		"isNationalWonder": true,
 		"uniques": ["[+1] Range <for [Ranged] units>", "All newly-trained [Military] units [in your cities] receive the [Learning Experience] promotion"],
+	},
+	{
+		"name": "Hivemind",
+		"uniqueTo": "Amogus",
+		"cost": 80,
+		"happiness": 1,
+		"uniques": ["[+1] population in a random city", "[+1 production] [in your cities]", "[+1 culture] [in your cities]", "[+1 science] [in your cities]", "[+1 Gold] [in your cities]", "[+1 Food] [in your cities]"],
+	},
+	{
+		"name": "Magnificier",
+		"uniqueTo": "Amogus",
+		"cost": 80,
+		"happiness": 1,
+		"uniques": ["[+2 Production] from all [World Wonder] buildings"],
 	},
 ]
