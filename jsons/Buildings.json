@@ -93,4 +93,34 @@
 		"happiness": 1,
 		"uniques": ["[+2 Production] from all [World Wonder] buildings"],
 	},
+	{
+		"name": "SpeedUp",
+		"uniqueTo": "Amogus",
+		"cost": 80,
+		"culture": 8,
+		"maintenance": 1,
+		"isNationalWonder": true,
+		"uniques": ["All newly-trained [Military] units [in your cities] receive the [One more] promotion"]
+		"requiredTech": "Trapping"
+	},
+	{
+		"name": "ArmorUp",
+		"uniqueTo": "Amogus",
+		"cost": 80,
+		"culture": 8,
+		"maintenance": 1,
+		"isNationalWonder": true,
+		"uniques": ["All newly-trained [Military] units [in your cities] receive the [One more] promotion"]
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Medic",
+		"uniqueTo": "Amogus",
+		"cost": 80,
+		"culture": 8,
+		"maintenance": 1,
+		"isNationalWonder": true,
+		"uniques": ["All newly-trained [Military] units [in your cities] receive the [Lifesteal] promotion"]
+		"requiredTech": "Iron Working"
+	},
 ]

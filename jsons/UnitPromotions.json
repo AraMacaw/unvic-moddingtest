@@ -15,4 +15,16 @@
 		"name": "Learning Experience",
 		"uniques": ["[+200]% XP gained from combat"]
 	},	
+	{
+		"name": "One more",
+		"uniques": ["[1] additional attacks per turn"]
+	},	
+	{
+		"name": "Block",
+		"uniques": ["[+50]% Strength <when defending>"]
+	},
+	{
+		"name": "Lifesteal",
+		"uniques": ["Heals [25] damage if it kills a unit", "[This Unit] heals [10] HP <every [1] turns>"]
+	},
 ]
