@@ -110,7 +110,7 @@
 		"culture": 8,
 		"maintenance": 1,
 		"isNationalWonder": true,
-		"uniques": ["All newly-trained [Military] units [in your cities] receive the [One more] promotion"]
+		"uniques": ["All newly-trained [Military] units [in your cities] receive the [Block] promotion"]
 		"requiredTech": "Iron Working"
 	},
 	{
