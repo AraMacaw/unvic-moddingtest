@@ -89,9 +89,9 @@
 	{
 		"name": "Magnificier",
 		"uniqueTo": "Amogus",
-		"cost": 80,
+		"cost": 20,
 		"happiness": 1,
-		"uniques": ["[+2 Production] from all [World Wonder] buildings"],
+		"uniques": ["[+2 Production] from all [Wonders] buildings <in this city>", "[+5]% [Production] from every [Buildings] <in this city>"],
 	},
 	{
 		"name": "SpeedUp",
@@ -122,5 +122,26 @@
 		"isNationalWonder": true,
 		"uniques": ["All newly-trained [Military] units [in your cities] receive the [Lifesteal] promotion"]
 		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Production Boost",
+		"uniqueTo": "Amogus",
+		"cost": 20,
+		"maintenance": 1,
+		"uniques": ["[+1 Production] from [your] tiles [in this city]"]
+	},
+	{
+		"name": "Growth Plan",
+		"uniqueTo": "Amogus",
+		"cost": 20,
+		"maintenance": 1,
+		"uniques": ["[+2 Food] from all [Buildings] buildings <in this city>"]
+	},
+	{
+		"name": "Science Field",
+		"uniqueTo": "Amogus",
+		"cost": 20,
+		"maintenance": 1,
+		"uniques": ["[+2 Science] from [your] tiles [in this city]"]
 	},
 ]
