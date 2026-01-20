@@ -37,7 +37,14 @@
             "[+100]% XP gained from combat",
             "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
             "Can build [all] improvements at a [+100]% rate",
-			"[+1 Production] per every [100] [Gold]"
+			"[+1 Production] per every [100] [Gold]",
+			"Free Social Policy",
+			"Free Technology",
+			"Free Social Policy <upon entering a new era>",
+			"Free Great Person <upon discovering a Natural Wonder>",
+			"[25]% XP required for promotions",
+			"Gain enough Faith for a Pantheon",
+			"[1] additional attacks per turn"
         ],
         "cities": [
             "Amogus",

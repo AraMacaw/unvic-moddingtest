@@ -27,4 +27,8 @@
 		"name": "Lifesteal",
 		"uniques": ["Heals [25] damage if it kills a unit", "[This Unit] heals [10] HP <every [1] turns>"]
 	},
+	{
+		"name": "Deja Vu",
+		"uniques": ["[This Unit] gains [5] XP <upon defeating a [Military] unit>"]
+	},
 ]
