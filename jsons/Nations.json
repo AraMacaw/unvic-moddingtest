@@ -34,7 +34,7 @@
             "[+200]% Production when constructing [Wonder] buildings [in all cities]",
             "[+2 Production] in cities on [all] tiles",
             "[+1 Science] in cities on [all] tiles",
-            "[+100]% XP gained from combat",
+            "[+200]% XP gained from combat",
             "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
             "Can build [all] improvements at a [+100]% rate",
 			"[+1 Production] per every [100] [Gold]",
@@ -42,7 +42,7 @@
 			"Free Technology",
 			"Free Social Policy <upon entering a new era>",
 			"Free Great Person <upon discovering a Natural Wonder>",
-			"[25]% XP required for promotions",
+			"[-50]% XP required for promotions",
 			"Gain enough Faith for a Pantheon",
 			"[1] additional attacks per turn"
         ],

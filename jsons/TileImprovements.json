@@ -1,0 +1,13 @@
+[
+	{
+		"name": "Snow Boost",
+		"uniqueTo": "Amogus",
+		"terrainsCanBeBuiltOn": ["Snow", "Tundra"],
+		"production": 1,
+		"food": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Construction",
+		"improvingTech": "Industrialization",
+		"improvingTechStats": {"production": 2}
+	}
+]
