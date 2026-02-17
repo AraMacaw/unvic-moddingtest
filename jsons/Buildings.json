@@ -153,4 +153,114 @@
 		"isNationalWonder": true,
 		"uniques": ["All newly-trained [Military] units [in your cities] receive the [Deja Vu] promotion"]
 	},
+	{
+		"name": "Elite",
+		"uniqueTo": "Amogus",
+		"food": 2,
+		"cost": 20,
+		"maintenance": 1,
+		"isNationalWonder": true,
+		"uniques": ["Free Great Person", "Free Great Person <every [50] turns>"]
+	},
+	{
+		"name": "Working Force",
+		"uniqueTo": "Amogus",
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery"
+		"isNationalWonder": true,
+		"uniques": ["Free [Worker] appears", "Free [Worker] appears <every [20] turns>", "Can build [all] improvements at a [+100]% rate", "Free [Settler] appears"]
+	},
+	{
+		"name": "Polyvalance",
+		"uniqueTo": "Amogus",
+		"culture": 12,
+		"science": 12,
+		"cost": 120,
+		"maintenance": 1,
+		"requiredTech": "Drama and Poetry"
+		"isNationalWonder": true,
+		"uniques": ["[+5]% [Culture] [in your cities] <for every [Adopted [All] Policies]>", "[+5]% [Science] [in your cities] <for every [Researched [All] Technologies]>"]
+	},
+	{
+		"name": "Elite Supervision",
+		"uniqueTo": "Amogus",
+		"cost": 200,
+		"maintenance": 1,
+		"greatPersonPoints": {"Great Engineer": 10},
+		"requiredTech": "Education"
+		"isNationalWonder": true,
+		"uniques": ["[+100]% Yield from every [Great Improvement]", "[+100]% Yield from every [Great Improvement] <during a Golden Age>", "[+100]% Great Person generation [in your cities] <during a Golden Age>"]
+	},
+	{
+		"name": "Trinity",
+		"uniqueTo": "Amogus",
+		"culture": 6,
+		"science": 6,
+		"cost": 300,
+		"maintenance": 1,
+		"requiredTech": "Industrialization"
+		"isNationalWonder": true,
+		"uniques": ["Free Social Policy", "Adopt [Freedom]", "Adopt [Autocracy]", "Adopt [Order]",]
+	},
+	{
+		"name": "Modern War",
+		"uniqueTo": "Amogus",
+		"cost": 600,
+		"maintenance": 1,
+		"requiredTech": "Combined Arms"
+		"isNationalWonder": true,
+		"uniques": ["[+1] additional attacks per turn", "[2] Movement", "[+1] Range"]
+	},
+	{
+		"name": "Scouting Expertise",
+		"uniqueTo": "Amogus",
+		"cost": 15,
+		"culture": 2,
+		"science": 2,
+		"isNationalWonder": true,
+		"uniques": ["All newly-trained [Scout] units [in your cities] receive the [Scout Master] promotion", "Free [Scout] appears"]
+	},
+	{
+		"name": "New Faith",
+		"uniqueTo": "Amogus",
+		"culture": 6,
+		"faith": 32,
+		"cost": 200,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+		"isNationalWonder": true,
+		"uniques": ["Gain a free [Pantheon] belief <every [25] turns>", "Gain a free [Founder] belief <every [60] turns>", "Gain a free [Follower] belief <every [40] turns>", "Gain a free [Enhancer] belief <every [50] turns>", "Free [Missionary] appears <every [20] turns>"]
+	},
+	{
+		"name": "Healing Power",
+		"uniqueTo": "Amogus",
+		"cost": 80,
+		"culture": 2,
+		"science": 2,
+		"requiredTech": "Calendar"
+		"isNationalWonder": true,
+		"uniques": ["All newly-trained [Military] units [in your cities] receive the [Rejuvenation] promotion"]
+	},
+	{
+		"name": "Backup Army",
+		"uniqueTo": "Amogus",
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Bronze Working"
+		"happiness": 6,
+		"isNationalWonder": true,
+		"uniques": ["Free [Spearman] appears", "Free [Spearman] appears <every [10] turns> <before the [Medieval era]>", "[25]% Strength", "Free [Spearman] appears <every [3] turns> <before the [Medieval era]> <when at war>"]
+	},
+	{
+		"name": "Food reserve",
+		"uniqueTo": "Amogus",
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery"
+		"happiness": 2,
+		"food": 8
+		"isNationalWonder": true,
+		"uniques": ["[+1] population [in your cities]", "[+1] population in a random city <every [10] turns>", "[+1] population in a random city <upon discovering [any era] technology>"]
+	},
 ]

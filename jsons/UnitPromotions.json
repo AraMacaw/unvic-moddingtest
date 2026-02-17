@@ -31,4 +31,8 @@
 		"name": "Deja Vu",
 		"uniques": ["[This Unit] gains [5] XP <upon defeating a [Military] unit>"]
 	},
+	{
+		"name": "Scout Master",
+		"uniques": ["[This Unit] gains [10] XP <every [5] turns>", "[2] Movement", "[+50]% Strength <when defending>", "[+2] Sight"]
+	},
 ]
