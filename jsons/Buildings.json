@@ -160,7 +160,7 @@
 		"cost": 20,
 		"maintenance": 1,
 		"isNationalWonder": true,
-		"uniques": ["Free Great Person", "Free Great Person <every [50] turns>"]
+		"uniques": ["Free Great Person", "Free Great Person <upon entering a Golden Age>"]
 	},
 	{
 		"name": "Working Force",
@@ -169,7 +169,7 @@
 		"maintenance": 1,
 		"requiredTech": "Pottery"
 		"isNationalWonder": true,
-		"uniques": ["Free [Worker] appears", "Free [Worker] appears <every [20] turns>", "Can build [all] improvements at a [+100]% rate", "Free [Settler] appears"]
+		"uniques": ["Free [Worker] appears", "Free [Worker] appears <upon declaring friendship>", "Can build [all] improvements at a [+100]% rate", "Free [Settler] appears"]
 	},
 	{
 		"name": "Polyvalance",
@@ -230,7 +230,7 @@
 		"maintenance": 1,
 		"requiredTech": "Theology"
 		"isNationalWonder": true,
-		"uniques": ["Gain a free [Pantheon] belief <every [25] turns>", "Gain a free [Founder] belief <every [60] turns>", "Gain a free [Follower] belief <every [40] turns>", "Gain a free [Enhancer] belief <every [50] turns>", "Free [Missionary] appears <every [20] turns>"]
+		"uniques": ["Gain a free [Pantheon] belief <upon founding a city>", "Gain a free [Founder] belief <upon entering a new era>", "Gain a free [Follower] belief <after generating a Great Prophet>", "Gain a free [Enhancer] belief <upon discovering a Natural Wonder>", "Free [Missionary] appears <upon founding a city>"]
 	},
 	{
 		"name": "Healing Power",
@@ -250,7 +250,7 @@
 		"requiredTech": "Bronze Working"
 		"happiness": 6,
 		"isNationalWonder": true,
-		"uniques": ["Free [Spearman] appears", "Free [Spearman] appears <every [10] turns> <before the [Medieval era]>", "[25]% Strength", "Free [Spearman] appears <every [3] turns> <before the [Medieval era]> <when at war>"]
+		"uniques": ["Free [Spearman] appears", "Free [Spearman] appears <upon building a [Snow Boost] improvement> <before the [Medieval era]>", "[25]% Strength", "Free [Spearman] appears <upon building a [Improvement] improvement> <before the [Medieval era]> <when at war>"]
 	},
 	{
 		"name": "Food reserve",
@@ -261,6 +261,6 @@
 		"happiness": 2,
 		"food": 8
 		"isNationalWonder": true,
-		"uniques": ["[+1] population [in your cities]", "[+1] population in a random city <every [10] turns>", "[+1] population in a random city <upon discovering [any era] technology>"]
+		"uniques": ["[+1] population [in your cities]", "[+1] population in a random city <upon turn start>", "[+1] population in a random city <upon discovering [any era] technology>"]
 	},
 ]
