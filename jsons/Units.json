@@ -1,17 +1,22 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
+		"name": "Great Thinker",
+		"unitType": "Civilian",
+		"uniqueTo": "Amogus",
 		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+		"requiredTech": "Theology",
+		"uniques": [
+            "Is part of Great Person group [Great Person]",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
+			"Gain a free [Any] belief <by consuming this unit>"],
+	},
+	{
+		"name": "Great Architect",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can instantly construct a [Tile Wonder] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 ]

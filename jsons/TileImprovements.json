@@ -9,5 +9,24 @@
 		"techRequired": "Construction",
 		"improvingTech": "Industrialization",
 		"improvingTechStats": {"production": 2}
-	}
+	},
+	{
+		"name": "Tile Wonder",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 10,
+		"gold": 10,
+		"science": 10,
+		"food": 10,
+		"uniques": [
+		"Great Improvement",
+		"Will not be replaced by automated units",
+        "Removes removable features when built",
+		"Pillaging this improvement yields approximately [+20 Gold]"
+		"[+1 Production] <for every adjacent [Great Improvement]>"
+		"[+1 Food] <for every adjacent [Great Improvement]>"
+		"[+1 Culture] <for every adjacent [Great Improvement]>"
+		"[+1 Gold] <for every adjacent [Great Improvement]>"
+		"[+1 Faith] <for every adjacent [Great Improvement]>"
+		]
+	},
 ]

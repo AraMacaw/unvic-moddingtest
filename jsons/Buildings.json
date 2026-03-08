@@ -230,7 +230,7 @@
 		"maintenance": 1,
 		"requiredTech": "Theology"
 		"isNationalWonder": true,
-		"uniques": ["Gain a free [Pantheon] belief <upon founding a city>", "Gain a free [Founder] belief <upon entering a new era>", "Gain a free [Follower] belief <after generating a Great Prophet>", "Gain a free [Enhancer] belief <upon discovering a Natural Wonder>", "Free [Missionary] appears <upon founding a city>"]
+		"uniques": ["Gain a free [Pantheon] belief <upon founding a city>", "Gain a free [Founder] belief <upon entering a new era>", "Gain a free [Follower] belief <after generating a Great Prophet>", "Gain a free [Enhancer] belief <upon discovering a Natural Wonder>", "Free [Great Thinker] appears"]
 	},
 	{
 		"name": "Healing Power",
@@ -250,7 +250,7 @@
 		"requiredTech": "Bronze Working"
 		"happiness": 6,
 		"isNationalWonder": true,
-		"uniques": ["Free [Spearman] appears", "Free [Spearman] appears <upon building a [Snow Boost] improvement> <before the [Medieval era]>", "[25]% Strength", "Free [Spearman] appears <upon building a [Improvement] improvement> <before the [Medieval era]> <when at war>"]
+		"uniques": ["Free [Spearman] appears", "Free [Spearman] appears <upon building a [Snow Boost] improvement> <before the [Renaissance era]>", "[25]% Strength", "Free [Spearman] appears <upon building a [Improvement] improvement> <before the [Medieval era]> <when at war>"]
 	},
 	{
 		"name": "Food reserve",
@@ -262,5 +262,78 @@
 		"food": 8
 		"isNationalWonder": true,
 		"uniques": ["[+1] population [in your cities]", "[+1] population in a random city <upon turn start>", "[+1] population in a random city <upon discovering [any era] technology>"]
+	},
+	{
+		"name": "Universal food supply",
+		"uniqueTo": "Amogus",
+		"cost": 80,
+		"maintenance": 1,
+		"requiredTech": "Pottery"
+		"happiness": 2,
+		"food": 8
+		"isNationalWonder": true,
+		"uniques": ["Provides the cheapest [Food] building in your first [100] cities for free"]
+	},
+	{
+		"name": "Universal Workforce",
+		"uniqueTo": "Amogus",
+		"cost": 180,
+		"maintenance": 1,
+		"requiredTech": "Iron Working"
+		"happiness": 2,
+		"production": 8
+		"isNationalWonder": true,
+		"uniques": ["Provides the cheapest [Production] building in your first [100] cities for free"]
+	},
+	{
+		"name": "Universal income",
+		"uniqueTo": "Amogus",
+		"cost": 280,
+		"maintenance": 1,
+		"requiredTech": "Currency"
+		"happiness": 2,
+		"gold": 8
+		"isNationalWonder": true,
+		"uniques": ["Provides the cheapest [Gold] building in your first [100] cities for free"]
+	},
+	{
+		"name": "Universal social connection",
+		"uniqueTo": "Amogus",
+		"cost": 280,
+		"maintenance": 1,
+		"requiredTech": "Drama and Poetry"
+		"happiness": 2,
+		"culture": 8
+		"isNationalWonder": true,
+		"uniques": ["Provides the cheapest [Culture] building in your first [100] cities for free"]
+	},
+	{
+		"name": "Universal freedom of faith",
+		"uniqueTo": "Amogus",
+		"cost": 380,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+		"happiness": 2,
+		"faith": 8
+		"isNationalWonder": true,
+		"uniques": ["Provides the cheapest [Faith] building in your first [100] cities for free"]
+	},
+	{
+		"name": "Universal education",
+		"uniqueTo": "Amogus",
+		"cost": 380,
+		"maintenance": 1,
+		"requiredTech": "Education"
+		"happiness": 2,
+		"science": 8
+		"isNationalWonder": true,
+		"uniques": ["Provides the cheapest [Science] building in your first [100] cities for free"]
+		"name": "Elitism",
+		"uniqueTo": "Amogus",
+		"cost": 188,
+		"maintenance": 1,
+		"requiredTech": "Electricity"
+		"isNationalWonder": true,
+		"uniques": ["[+100]% Yield from every [Great Improvement]", "[+25]% Yield from every [Great Improvement] <during a Golden Age>", "[+50]% Great Person generation [in your cities] <during a Golden Age>", "[+100]% Yield from every [Great Improvement] <when at war>", "[+25]% Yield from every [Great Improvement] <when not at war>", "[+75]% Yield from every [Great Improvement] <during We Love The King Day>", "[+25]% Yield from every [Great Improvement] <while the empire is happy>", "[+10]% Yield from every [Great Improvement] <after generating a Great Prophet>", "[+1]% Yield from every [Great Improvement] <for every [turns]>", "[+25]% Yield from every [Great Improvement] <for every [Completed Policy branches]>"]
 	},
 ]
