@@ -328,6 +328,8 @@
 		"science": 8
 		"isNationalWonder": true,
 		"uniques": ["Provides the cheapest [Science] building in your first [100] cities for free"]
+	},
+	{
 		"name": "Elitism",
 		"uniqueTo": "Amogus",
 		"cost": 188,
