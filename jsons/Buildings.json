@@ -230,7 +230,7 @@
 		"maintenance": 1,
 		"requiredTech": "Theology"
 		"isNationalWonder": true,
-		"uniques": ["Gain a free [Pantheon] belief <upon founding a city>", "Gain a free [Founder] belief <upon entering a new era>", "Gain a free [Follower] belief <after generating a Great Prophet>", "Gain a free [Enhancer] belief <upon discovering a Natural Wonder>", "Free [Great Thinker] appears"]
+		"uniques": ["Gain a free [Pantheon] belief <upon founding a city>", "Gain a free [Founder] belief <upon entering a new era>", "Gain a free [Follower] belief <after generating a Great Prophet>", "Gain a free [Enhancer] belief <upon discovering a Natural Wonder>", "Free [Great Thinker] appears", "Free [Great Thinker] appears <upon entering a Golden Age>"]
 	},
 	{
 		"name": "Healing Power",
