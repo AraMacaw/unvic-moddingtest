@@ -35,4 +35,8 @@
 		"name": "Scout Master",
 		"uniques": ["[This Unit] gains [10] XP <every [5] turns>", "[2] Movement", "[+50]% Strength <when defending>", "[+2] Sight"]
 	},
+	{
+		"name": "Pest Control",
+		"uniques": ["[This Unit] gains [1] XP <upon turn end>", "Earn [100]% of the damage done to [Barbarian] units as [Faith]", "Earn [20]% of the damage done to [Barbarian] units as [Food]"]
+	},
 ]
