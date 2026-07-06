@@ -1,350 +1,882 @@
 [
-	{
-		"name": "Central",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Amogus",
-		"cost": 480,
-		"happiness": 24,
-		"culture": 24,
-		"science": 2,
-		"maintenance": 1,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Development System",
-		"replaces": "Monument",
-		"uniqueTo": "Amogus",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"production": 3,
-		"culture": 12,
-		"uniques": ["[+1 Science] per [1] population [in this city]", "[+1 Production] per [1] population [in this city]", "[+1 Gold] per [1] population [in this city]"],
-		"requiredTech": "Engineering"
-	},
-	{
-		"name": "Balistic research",
-		"uniqueTo": "Amogus",
-		"cost": 580,
-		"culture": 2,
-		"science": 10,
-		"maintenance": 1,
-		"isNationalWonder": true,
-		"uniques": ["All newly-trained [Ranged] units [in your cities] receive the [Balistic] promotion"]
-		"requiredTech": "Physics"
-	},
-	{
-		"name": "Adv. Balistic research",
-		"uniqueTo": "Amogus",
-		"cost": 1080,
-		"culture": 6,
-		"science": 20,
-		"maintenance": 4,
-		"isNationalWonder": true,
-		"uniques": ["All newly-trained [Ranged] units [in your cities] receive the [Advanced Balistic] promotion"]
-		"requiredTech": "Military Science"
-	},
-	{
-		"name": "Mobility research",
-		"uniqueTo": "Amogus",
-		"cost": 820,
-		"culture": 2,
-		"science": 10,
-		"maintenance": 3,
-		"isNationalWonder": true,
-		"uniques": ["All newly-trained [Military] units [in your cities] receive the [Advanced Movement] promotion"]
-		"requiredTech": "Machinery"
-	},
-	{
-		"name": "Organised Workforce",
-		"uniqueTo": "Amogus",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 1,
-		"production": 8,
-		"uniques": ["[+1 Production] per [1] population [in this city]", "Provides the cheapest [Production] building in your first [3] cities for free"],
-		"requiredTech": "Masonry"
-	},
-	{
-		"name": "Training Ground",
-		"uniqueTo": "Amogus",
-		"cost": 80,
-		"happiness": 1,
-		"science": 2,
-		"production": 4,
-		"isNationalWonder": true,
-		"requiredTech": "Chivalry"
-		"uniques": ["[+1] Range <for [Ranged] units>", "All newly-trained [Military] units [in your cities] receive the [Learning Experience] promotion"],
-	},
-	{
-		"name": "Hivemind",
-		"uniqueTo": "Amogus",
-		"cost": 80,
-		"happiness": 1,
-		"requiredTech": "Industrialization"
-		"uniques": ["[+1] population in a random city", "[+1 Production] [in your cities]", "[+1 Culture] [in your cities]", "[+1 Science] [in your cities]", "[+1 Gold] [in your cities]", "[+1 Food] [in your cities]"],
-	},
-	{
-		"name": "Magnificier",
-		"uniqueTo": "Amogus",
-		"cost": 20,
-		"happiness": 2,
-		"uniques": ["[+2 Production] from all [Wonders] buildings <in this city>", "[+5]% [Production] from every [Buildings] <in this city>"],
-	},
-	{
-		"name": "SpeedUp",
-		"uniqueTo": "Amogus",
-		"cost": 80,
-		"culture": 8,
-		"maintenance": 1,
-		"isNationalWonder": true,
-		"uniques": ["All newly-trained [Military] units [in your cities] receive the [One more] promotion"]
-		"requiredTech": "Trapping"
-	},
-	{
-		"name": "ArmorUp",
-		"uniqueTo": "Amogus",
-		"cost": 80,
-		"culture": 8,
-		"maintenance": 1,
-		"isNationalWonder": true,
-		"uniques": ["All newly-trained [Military] units [in your cities] receive the [Block] promotion"]
-		"requiredTech": "Iron Working"
-	},
-	{
-		"name": "Medic",
-		"uniqueTo": "Amogus",
-		"cost": 80,
-		"culture": 8,
-		"maintenance": 1,
-		"isNationalWonder": true,
-		"uniques": ["All newly-trained [Military] units [in your cities] receive the [Lifesteal] promotion"]
-		"requiredTech": "Iron Working"
-	},
-	{
-		"name": "Production Boost",
-		"uniqueTo": "Amogus",
-		"cost": 20,
-		"maintenance": 1,
-		"uniques": ["[+1 Production] from [your] tiles [in this city]", "Provides the cheapest [Production] building in your first [3] cities for free"]
-	},
-	{
-		"name": "Growth Plan",
-		"uniqueTo": "Amogus",
-		"cost": 20,
-		"maintenance": 1,
-		"uniques": ["[+2 Food] from all [Buildings] buildings <in this city>", "Provides the cheapest [Food] building in your first [3] cities for free"]
-	},
-	{
-		"name": "Science Field",
-		"uniqueTo": "Amogus",
-		"cost": 20,
-		"maintenance": 1,
-		"uniques": ["[+2 Science] from [your] tiles [in this city]", "Provides the cheapest [Science] building in your first [100] cities for free"]
-	},
-	{
-		"name": "Conqueror",
-		"uniqueTo": "Amogus",
-		"cost": 120,
-		"culture": 2,
-		"maintenance": 1,
-		"isNationalWonder": true,
-		"uniques": ["All newly-trained [Military] units [in your cities] receive the [Deja Vu] promotion"]
-	},
-	{
-		"name": "Elite",
-		"uniqueTo": "Amogus",
-		"food": 2,
-		"cost": 20,
-		"maintenance": 1,
-		"isNationalWonder": true,
-		"uniques": ["Free Great Person", "Free Great Person <upon entering a Golden Age>"]
-	},
-	{
-		"name": "Working Force",
-		"uniqueTo": "Amogus",
-		"cost": 40,
-		"maintenance": 1,
-		"requiredTech": "Pottery"
-		"isNationalWonder": true,
-		"uniques": ["Free [Worker] appears", "Free [Worker] appears <upon declaring friendship>", "Can build [all] improvements at a [+100]% rate", "Free [Settler] appears"]
-	},
-	{
-		"name": "Polyvalance",
-		"uniqueTo": "Amogus",
-		"culture": 12,
-		"science": 12,
-		"cost": 120,
-		"maintenance": 1,
-		"requiredTech": "Drama and Poetry"
-		"isNationalWonder": true,
-		"uniques": ["[+5]% [Culture] [in your cities] <for every [Adopted [All] Policies]>", "[+5]% [Science] [in your cities] <for every [Researched [All] Technologies]>"]
-	},
-	{
-		"name": "Elite Supervision",
-		"uniqueTo": "Amogus",
-		"cost": 200,
-		"maintenance": 1,
-		"greatPersonPoints": {"Great Engineer": 10},
-		"requiredTech": "Education"
-		"isNationalWonder": true,
-		"uniques": ["[+100]% Yield from every [Great Improvement]", "[+100]% Yield from every [Great Improvement] <during a Golden Age>", "[+100]% Great Person generation [in your cities] <during a Golden Age>"]
-	},
-	{
-		"name": "Trinity",
-		"uniqueTo": "Amogus",
-		"culture": 6,
-		"science": 6,
-		"cost": 300,
-		"maintenance": 1,
-		"requiredTech": "Industrialization"
-		"isNationalWonder": true,
-		"uniques": ["Free Social Policy", "Adopt [Freedom]", "Adopt [Autocracy]", "Adopt [Order]",]
-	},
-	{
-		"name": "Modern War",
-		"uniqueTo": "Amogus",
-		"cost": 600,
-		"maintenance": 1,
-		"requiredTech": "Combined Arms"
-		"isNationalWonder": true,
-		"uniques": ["[+1] additional attacks per turn", "[2] Movement", "[+1] Range"]
-	},
-	{
-		"name": "Scouting Expertise",
-		"uniqueTo": "Amogus",
-		"cost": 15,
-		"culture": 2,
-		"science": 2,
-		"isNationalWonder": true,
-		"uniques": ["All newly-trained [Scout] units [in your cities] receive the [Scout Master] promotion", "Free [Scout] appears"]
-	},
-	{
-		"name": "New Faith",
-		"uniqueTo": "Amogus",
-		"culture": 6,
-		"faith": 32,
-		"cost": 200,
-		"maintenance": 1,
-		"requiredTech": "Theology"
-		"isNationalWonder": true,
-		"uniques": ["Gain a free [Pantheon] belief <upon founding a city>", "Gain a free [Founder] belief <upon entering a new era>", "Gain a free [Follower] belief <after generating a Great Prophet>", "Gain a free [Enhancer] belief <upon discovering a Natural Wonder>", "Free [Great Thinker] appears", "Free [Great Thinker] appears <upon entering a Golden Age>", "May buy [Great Thinker] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
-	},
-	{
-		"name": "Healing Power",
-		"uniqueTo": "Amogus",
-		"cost": 80,
-		"culture": 2,
-		"science": 2,
-		"requiredTech": "Calendar"
-		"isNationalWonder": true,
-		"uniques": ["All newly-trained [Military] units [in your cities] receive the [Rejuvenation] promotion"]
-	},
-	{
-		"name": "Backup Army",
-		"uniqueTo": "Amogus",
-		"cost": 40,
-		"maintenance": 1,
-		"requiredTech": "Bronze Working"
-		"happiness": 6,
-		"isNationalWonder": true,
-		"uniques": ["Free [Spearman] appears", "Free [Spearman] appears <upon building a [Snow Boost] improvement> <before the [Renaissance era]>", "[25]% Strength", "Free [Spearman] appears <upon building a [Improvement] improvement> <before the [Medieval era]> <when at war>"]
-	},
-	{
-		"name": "Food reserve",
-		"uniqueTo": "Amogus",
-		"cost": 40,
-		"maintenance": 1,
-		"requiredTech": "Pottery"
-		"happiness": 2,
-		"food": 8
-		"isNationalWonder": true,
-		"uniques": ["[+1] population [in your cities]", "[+1] population in a random city <upon turn start>", "[+1] population in a random city <upon discovering [any era] technology>"]
-	},
-	{
-		"name": "Universal food supply",
-		"uniqueTo": "Amogus",
-		"cost": 80,
-		"maintenance": 1,
-		"requiredTech": "Pottery"
-		"happiness": 2,
-		"food": 8
-		"isNationalWonder": true,
-		"uniques": ["Provides the cheapest [Food] building in your first [100] cities for free"]
-	},
-	{
-		"name": "Universal Workforce",
-		"uniqueTo": "Amogus",
-		"cost": 180,
-		"maintenance": 1,
-		"requiredTech": "Iron Working"
-		"happiness": 2,
-		"production": 8
-		"isNationalWonder": true,
-		"uniques": ["Provides the cheapest [Production] building in your first [100] cities for free"]
-	},
-	{
-		"name": "Universal income",
-		"uniqueTo": "Amogus",
-		"cost": 280,
-		"maintenance": 1,
-		"requiredTech": "Currency"
-		"happiness": 2,
-		"gold": 8
-		"isNationalWonder": true,
-		"uniques": ["Provides the cheapest [Gold] building in your first [100] cities for free"]
-	},
-	{
-		"name": "Universal social connection",
-		"uniqueTo": "Amogus",
-		"cost": 280,
-		"maintenance": 1,
-		"requiredTech": "Drama and Poetry"
-		"happiness": 2,
-		"culture": 8
-		"isNationalWonder": true,
-		"uniques": ["Provides the cheapest [Culture] building in your first [100] cities for free"]
-	},
-	{
-		"name": "Universal freedom of faith",
-		"uniqueTo": "Amogus",
-		"cost": 380,
-		"maintenance": 1,
-		"requiredTech": "Theology"
-		"happiness": 2,
-		"faith": 8
-		"isNationalWonder": true,
-		"uniques": ["Provides the cheapest [Faith] building in your first [100] cities for free"]
-	},
-	{
-		"name": "Universal education",
-		"uniqueTo": "Amogus",
-		"cost": 380,
-		"maintenance": 1,
-		"requiredTech": "Education"
-		"happiness": 2,
-		"science": 8
-		"isNationalWonder": true,
-		"uniques": ["Provides the cheapest [Science] building in your first [100] cities for free"]
-	},
-	{
-		"name": "Elitism",
-		"uniqueTo": "Amogus",
-		"cost": 188,
-		"maintenance": 1,
-		"requiredTech": "Electricity"
-		"isNationalWonder": true,
-		"uniques": ["[+100]% Yield from every [Great Improvement]", "[+25]% Yield from every [Great Improvement] <during a Golden Age>", "[+50]% Great Person generation [in your cities] <during a Golden Age>", "[+100]% Yield from every [Great Improvement] <when at war>", "[+25]% Yield from every [Great Improvement] <when not at war>", "[+75]% Yield from every [Great Improvement] <during We Love The King Day>", "[+25]% Yield from every [Great Improvement] <while the empire is happy>", "[+10]% Yield from every [Great Improvement] <after generating a Great Prophet>", "[+1]% Yield from every [Great Improvement] <for every [turns]>", "[+25]% Yield from every [Great Improvement] <for every [Completed Policy branches]>"]
-	},
-	{
-		"name": "Hapiness Management",
-		"uniqueTo": "Amogus",
-		"happiness": 10,
-		"cost": 80,
-		"maintenance": 2,
-		"isNationalWonder": true,
-		"uniques": ["[-20]% Unhappiness from [Population] [in your cities]", "[+2 Happiness] from every specialist [in this city]"]
-	},
+  {
+    "name": "Central",
+    "replaces": "Circus Maximus",
+    "uniqueTo": "Amogus",
+    "cost": 480,
+    "happiness": 24,
+    "culture": 24,
+    "science": 2,
+    "maintenance": 1,
+    "isNationalWonder": true,
+    "requiredBuildingInAllCities": "Colosseum",
+    "requiredTech": "Horseback Riding"
+  },
+  {
+    "name": "Development System",
+    "replaces": "Monument",
+    "uniqueTo": "Amogus",
+    "cost": 80,
+    "hurryCostModifier": 160,
+    "happiness": 2,
+    "production": 3,
+    "culture": 12,
+    "uniques": [
+      "[+1 Science] per [1] population [in this city]",
+      "[+1 Production] per [1] population [in this city]",
+      "[+1 Gold] per [1] population [in this city]"
+    ],
+    "requiredTech": "Engineering"
+  },
+  {
+    "name": "Balistic research",
+    "uniqueTo": "Amogus",
+    "cost": 580,
+    "culture": 2,
+    "science": 10,
+    "maintenance": 1,
+    "isNationalWonder": true,
+    "uniques": [
+      "All newly-trained [Ranged] units [in your cities] receive the [Balistic] promotion"
+    ],
+    "requiredTech": "Physics"
+  },
+  {
+    "name": "Adv. Balistic research",
+    "uniqueTo": "Amogus",
+    "cost": 1080,
+    "culture": 6,
+    "science": 20,
+    "maintenance": 4,
+    "isNationalWonder": true,
+    "uniques": [
+      "All newly-trained [Ranged] units [in your cities] receive the [Advanced Balistic] promotion"
+    ],
+    "requiredTech": "Military Science"
+  },
+  {
+    "name": "Mobility research",
+    "uniqueTo": "Amogus",
+    "cost": 820,
+    "culture": 2,
+    "science": 10,
+    "maintenance": 3,
+    "isNationalWonder": true,
+    "uniques": [
+      "All newly-trained [Military] units [in your cities] receive the [Advanced Movement] promotion"
+    ],
+    "requiredTech": "Machinery"
+  },
+  {
+    "name": "Organised Workforce",
+    "uniqueTo": "Amogus",
+    "cost": 80,
+    "hurryCostModifier": 160,
+    "happiness": 1,
+    "production": 8,
+    "uniques": [
+      "[+1 Production] per [1] population [in this city]",
+      "Provides the cheapest [Production] building in your first [3] cities for free"
+    ],
+    "requiredTech": "Masonry"
+  },
+  {
+    "name": "Training Ground",
+    "uniqueTo": "Amogus",
+    "cost": 80,
+    "happiness": 1,
+    "science": 2,
+    "production": 4,
+    "isNationalWonder": true,
+    "requiredTech": "Chivalry",
+    "uniques": [
+      "[+1] Range <for [Ranged] units>",
+      "All newly-trained [Military] units [in your cities] receive the [Learning Experience] promotion"
+    ]
+  },
+  {
+    "name": "Hivemind",
+    "uniqueTo": "Amogus",
+    "cost": 80,
+    "happiness": 1,
+    "requiredTech": "Industrialization",
+    "uniques": [
+      "[+1] population in a random city",
+      "[+1 Production] [in your cities]",
+      "[+1 Culture] [in your cities]",
+      "[+1 Science] [in your cities]",
+      "[+1 Gold] [in your cities]",
+      "[+1 Food] [in your cities]"
+    ]
+  },
+  {
+    "name": "Magnificier",
+    "uniqueTo": "Amogus",
+    "cost": 20,
+    "happiness": 2,
+    "uniques": [
+      "[+2 Production] from all [Wonders] buildings <in this city>",
+      "[+5]% [Production] from every [Buildings] <in this city>"
+    ]
+  },
+  {
+    "name": "SpeedUp",
+    "uniqueTo": "Amogus",
+    "cost": 80,
+    "culture": 8,
+    "maintenance": 1,
+    "isNationalWonder": true,
+    "uniques": [
+      "All newly-trained [Military] units [in your cities] receive the [One more] promotion"
+    ],
+    "requiredTech": "Trapping"
+  },
+  {
+    "name": "ArmorUp",
+    "uniqueTo": "Amogus",
+    "cost": 80,
+    "culture": 8,
+    "maintenance": 1,
+    "isNationalWonder": true,
+    "uniques": [
+      "All newly-trained [Military] units [in your cities] receive the [Block] promotion"
+    ],
+    "requiredTech": "Iron Working"
+  },
+  {
+    "name": "Medic",
+    "uniqueTo": "Amogus",
+    "cost": 80,
+    "culture": 8,
+    "maintenance": 1,
+    "isNationalWonder": true,
+    "uniques": [
+      "All newly-trained [Military] units [in your cities] receive the [Lifesteal] promotion"
+    ],
+    "requiredTech": "Iron Working"
+  },
+  {
+    "name": "Production Boost",
+    "uniqueTo": "Amogus",
+    "cost": 20,
+    "maintenance": 1,
+    "uniques": [
+      "[+1 Production] from [your] tiles [in this city]",
+      "Provides the cheapest [Production] building in your first [3] cities for free"
+    ]
+  },
+  {
+    "name": "Growth Plan",
+    "uniqueTo": "Amogus",
+    "cost": 20,
+    "maintenance": 1,
+    "uniques": [
+      "[+2 Food] from all [Buildings] buildings <in this city>",
+      "Provides the cheapest [Food] building in your first [3] cities for free"
+    ]
+  },
+  {
+    "name": "Science Field",
+    "uniqueTo": "Amogus",
+    "cost": 20,
+    "maintenance": 1,
+    "uniques": [
+      "[+2 Science] from [your] tiles [in this city]",
+      "Provides the cheapest [Science] building in your first [100] cities for free"
+    ]
+  },
+  {
+    "name": "Conqueror",
+    "uniqueTo": "Amogus",
+    "cost": 120,
+    "culture": 2,
+    "maintenance": 1,
+    "isNationalWonder": true,
+    "uniques": [
+      "All newly-trained [Military] units [in your cities] receive the [Deja Vu] promotion"
+    ]
+  },
+  {
+    "name": "Elite",
+    "uniqueTo": "Amogus",
+    "food": 2,
+    "cost": 20,
+    "maintenance": 1,
+    "isNationalWonder": true,
+    "uniques": [
+      "Free Great Person",
+      "Free Great Person <upon entering a Golden Age>"
+    ]
+  },
+  {
+    "name": "Working Force",
+    "uniqueTo": "Amogus",
+    "cost": 40,
+    "maintenance": 1,
+    "requiredTech": "Pottery",
+    "isNationalWonder": true,
+    "uniques": [
+      "Free [Worker] appears",
+      "Free [Worker] appears <upon declaring friendship>",
+      "Can build [all] improvements at a [+100]% rate",
+      "Free [Settler] appears"
+    ]
+  },
+  {
+    "name": "Polyvalance",
+    "uniqueTo": "Amogus",
+    "culture": 12,
+    "science": 12,
+    "cost": 120,
+    "maintenance": 1,
+    "requiredTech": "Drama and Poetry",
+    "isNationalWonder": true,
+    "uniques": [
+      "[+5]% [Culture] [in your cities] <for every [Adopted [All] Policies]>",
+      "[+5]% [Science] [in your cities] <for every [Researched [All] Technologies]>"
+    ]
+  },
+  {
+    "name": "Elite Supervision",
+    "uniqueTo": "Amogus",
+    "cost": 200,
+    "maintenance": 1,
+    "greatPersonPoints": {
+      "Great Engineer": 10
+    },
+    "requiredTech": "Education",
+    "isNationalWonder": true,
+    "uniques": [
+      "[+100]% Yield from every [Great Improvement]",
+      "[+100]% Yield from every [Great Improvement] <during a Golden Age>",
+      "[+100]% Great Person generation [in your cities] <during a Golden Age>"
+    ]
+  },
+  {
+    "name": "Trinity",
+    "uniqueTo": "Amogus",
+    "culture": 6,
+    "science": 6,
+    "cost": 300,
+    "maintenance": 1,
+    "requiredTech": "Industrialization",
+    "isNationalWonder": true,
+    "uniques": [
+      "Free Social Policy",
+      "Adopt [Freedom]",
+      "Adopt [Autocracy]",
+      "Adopt [Order]"
+    ]
+  },
+  {
+    "name": "Modern War",
+    "uniqueTo": "Amogus",
+    "cost": 600,
+    "maintenance": 1,
+    "requiredTech": "Combined Arms",
+    "isNationalWonder": true,
+    "uniques": [
+      "[+1] additional attacks per turn",
+      "[2] Movement",
+      "[+1] Range"
+    ]
+  },
+  {
+    "name": "Scouting Expertise",
+    "uniqueTo": "Amogus",
+    "cost": 15,
+    "culture": 2,
+    "science": 2,
+    "isNationalWonder": true,
+    "uniques": [
+      "All newly-trained [Scout] units [in your cities] receive the [Scout Master] promotion",
+      "Free [Scout] appears"
+    ]
+  },
+  {
+    "name": "New Faith",
+    "uniqueTo": "Amogus",
+    "culture": 6,
+    "faith": 32,
+    "cost": 200,
+    "maintenance": 1,
+    "requiredTech": "Theology",
+    "isNationalWonder": true,
+    "uniques": [
+      "Gain a free [Pantheon] belief <upon founding a city>",
+      "Gain a free [Founder] belief <upon entering a new era>",
+      "Gain a free [Follower] belief <after generating a Great Prophet>",
+      "Gain a free [Enhancer] belief <upon discovering a Natural Wonder>",
+      "Free [Great Thinker] appears",
+      "Free [Great Thinker] appears <upon entering a Golden Age>",
+      "May buy [Great Thinker] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+    ]
+  },
+  {
+    "name": "Healing Power",
+    "uniqueTo": "Amogus",
+    "cost": 80,
+    "culture": 2,
+    "science": 2,
+    "requiredTech": "Calendar",
+    "isNationalWonder": true,
+    "uniques": [
+      "All newly-trained [Military] units [in your cities] receive the [Rejuvenation] promotion"
+    ]
+  },
+  {
+    "name": "Backup Army",
+    "uniqueTo": "Amogus",
+    "cost": 40,
+    "maintenance": 1,
+    "requiredTech": "Bronze Working",
+    "happiness": 6,
+    "isNationalWonder": true,
+    "uniques": [
+      "Free [Spearman] appears",
+      "Free [Spearman] appears <upon building a [Snow Boost] improvement> <before the [Renaissance era]>",
+      "[25]% Strength",
+      "Free [Spearman] appears <upon building a [Improvement] improvement> <before the [Medieval era]> <when at war>"
+    ]
+  },
+  {
+    "name": "Food reserve",
+    "uniqueTo": "Amogus",
+    "cost": 40,
+    "maintenance": 1,
+    "requiredTech": "Pottery",
+    "happiness": 2,
+    "food": 8,
+    "isNationalWonder": true,
+    "uniques": [
+      "[+1] population [in your cities]",
+      "[+1] population in a random city <upon turn start>",
+      "[+1] population in a random city <upon discovering [any era] technology>"
+    ]
+  },
+  {
+    "name": "Universal food supply",
+    "uniqueTo": "Amogus",
+    "cost": 80,
+    "maintenance": 1,
+    "requiredTech": "Pottery",
+    "happiness": 2,
+    "food": 8,
+    "isNationalWonder": true,
+    "uniques": [
+      "Provides the cheapest [Food] building in your first [100] cities for free"
+    ]
+  },
+  {
+    "name": "Universal Workforce",
+    "uniqueTo": "Amogus",
+    "cost": 180,
+    "maintenance": 1,
+    "requiredTech": "Iron Working",
+    "happiness": 2,
+    "production": 8,
+    "isNationalWonder": true,
+    "uniques": [
+      "Provides the cheapest [Production] building in your first [100] cities for free"
+    ]
+  },
+  {
+    "name": "Universal income",
+    "uniqueTo": "Amogus",
+    "cost": 280,
+    "maintenance": 1,
+    "requiredTech": "Currency",
+    "happiness": 2,
+    "gold": 8,
+    "isNationalWonder": true,
+    "uniques": [
+      "Provides the cheapest [Gold] building in your first [100] cities for free"
+    ]
+  },
+  {
+    "name": "Universal social connection",
+    "uniqueTo": "Amogus",
+    "cost": 280,
+    "maintenance": 1,
+    "requiredTech": "Drama and Poetry",
+    "happiness": 2,
+    "culture": 8,
+    "isNationalWonder": true,
+    "uniques": [
+      "Provides the cheapest [Culture] building in your first [100] cities for free"
+    ]
+  },
+  {
+    "name": "Universal freedom of faith",
+    "uniqueTo": "Amogus",
+    "cost": 380,
+    "maintenance": 1,
+    "requiredTech": "Theology",
+    "happiness": 2,
+    "faith": 8,
+    "isNationalWonder": true,
+    "uniques": [
+      "Provides the cheapest [Faith] building in your first [100] cities for free"
+    ]
+  },
+  {
+    "name": "Universal education",
+    "uniqueTo": "Amogus",
+    "cost": 380,
+    "maintenance": 1,
+    "requiredTech": "Education",
+    "happiness": 2,
+    "science": 8,
+    "isNationalWonder": true,
+    "uniques": [
+      "Provides the cheapest [Science] building in your first [100] cities for free"
+    ]
+  },
+  {
+    "name": "Elitism",
+    "uniqueTo": "Amogus",
+    "cost": 188,
+    "maintenance": 1,
+    "requiredTech": "Electricity",
+    "isNationalWonder": true,
+    "uniques": [
+      "[+100]% Yield from every [Great Improvement]",
+      "[+25]% Yield from every [Great Improvement] <during a Golden Age>",
+      "[+50]% Great Person generation [in your cities] <during a Golden Age>",
+      "[+100]% Yield from every [Great Improvement] <when at war>",
+      "[+25]% Yield from every [Great Improvement] <when not at war>",
+      "[+75]% Yield from every [Great Improvement] <during We Love The King Day>",
+      "[+25]% Yield from every [Great Improvement] <while the empire is happy>",
+      "[+10]% Yield from every [Great Improvement] <after generating a Great Prophet>",
+      "[+1]% Yield from every [Great Improvement] <for every [turns]>",
+      "[+25]% Yield from every [Great Improvement] <for every [Completed Policy branches]>"
+    ]
+  },
+  {
+    "name": "Hapiness Management",
+    "uniqueTo": "Amogus",
+    "happiness": 10,
+    "cost": 80,
+    "maintenance": 2,
+    "isNationalWonder": true,
+    "uniques": [
+      "[-20]% Unhappiness from [Population] [in your cities]",
+      "[+2 Happiness] from every specialist [in this city]"
+    ]
+  },
+  {
+    "name": "Revolution",
+    "uniqueTo": "Amogus",
+    "happiness": 2,
+    "cost": 0,
+    "isNationalWonder": true,
+    "uniques": [
+      "Damage to garrison from nuclear attacks [0]% [in your cities]",
+      "Population loss from nuclear attacks [0]% [in your cities]",
+      "[100]% Production when constructing [Military] units [in your cities] <when at war>",
+      "Only available <when at war>",
+      "[8] free [Spearman] units appear"
+    ]
+  },
+  {
+    "name": "Following Track",
+    "uniqueTo": "Amogus",
+    "production": 4,
+    "cost": 80,
+    "maintenance": 2,
+    "isNationalWonder": true,
+    "uniques": [
+      "Provides the cheapest [Production] building in your first [3] cities for free <upon constructing [Wonder] [in this city]>",
+      "Gain [1000] [Gold] <upon constructing [Wonder] [in this city]>",
+      "[3] population in a random city <upon constructing [Wonder] [in this city]>"
+    ]
+  },
+  {
+    "name": "Insta Belief",
+    "uniqueTo": "Amogus",
+    "faith": 10,
+    "cost": 0,
+    "maintenance": 2,
+    "isNationalWonder": true,
+    "uniques": [
+      "May choose [3] additional belief(s) of any type when [founding] a religion",
+      "Free Great Person",
+      "May buy [Wonders] buildings for [1000] [Gold] [in this city] at an increasing price ([2500])"
+    ]
+  },
+  {
+    "name": "Wonder Pack: Ancient Era",
+	"requiredTech": "Construction",
+	"greatPersonPoints": {"Great Thinker": 2},
+    "uniqueTo": "Amogus",
+    "culture": 10,
+    "cost": 1110,
+    "isWonder": true,
+    "uniques": [
+      "Gain a free [Temple of Artemis] [in capital]",
+	  "Gain a free [Stonehenge] [in capital]",
+	  "Gain a free [The Great Library] [in capital]",
+	  "Gain a free [The Pyramids] [in capital]",
+	  "Gain a free [Mausoleum of Halicarnassus] [in capital]",
+	  "Gain a free [Statue of Zeus] [in capital]"
+	  "[+5 Culture] from every specialist [in your cities]"
+	  "[200]% of excess happiness converted to [Faith]"
+    ]
+  }
+  {
+  "name": "Wonder Pack: Classical Era",
+  "requiredTech": "Guilds",
+  "uniqueTo": "Amogus",
+  "culture": 10,
+  "cost": 1750,
+  "greatPersonPoints": {"Great Architect": 1},
+  "isWonder": true,
+  "uniques": [
+	"Gain a free [The Great Lighthouse] [in capital]",
+	"Gain a free [Hanging Gardens] [in capital]",
+	"Gain a free [Terracotta Army] [in capital]",
+	"Gain a free [The Oracle] [in capital]",
+	"Gain a free [Petra] [in capital]",
+	"Gain a free [Great Wall] [in capital]",
+	"Gain a free [Colossus] [in capital]",
+	"Enables conversion of city production to [Culture]",
+	"[-15]% Culture cost of adopting new Policies",
+	"[-15]% Culture cost of natural border growth [in your cities]"
+	]
+  },
+  {
+  "name": "Wonder Pack: Medieval Era",
+  "uniqueTo": "Amogus",
+  "greatPersonPoints": {"Great Thinker": 4},
+  "requiredTech": "Banking",
+  "culture": 10,
+  "cost": 2100,
+  "isWonder": true,
+  "uniques": [
+	"Gain a free [Hagia Sophia] [in capital]",
+	"Gain a free [Great Mosque of Djenne] [in capital]",
+	"Gain a free [Chichen Itza] [in capital]",
+	"Gain a free [Machu Picchu] [in capital]",
+	"Gain a free [Angkor Wat] [in capital]",
+	"Gain a free [Alhambra] [in capital]",
+	"Gain a free [Notre Dame] [in capital]",
+	"[+100]% Great Person generation [in this city]",
+	"[+100]% Yield from every [Great Improvement]"
+	]
+  },
+{
+  "name": "Wonder Pack: Renaissance Era",
+  "requiredTech": "Industrialization",
+  "greatPersonPoints": {"Great Architect": 2},
+  "uniqueTo": "Amogus",
+  "culture": 10,
+  "cost": 3500,
+  "isWonder": true,
+  "uniques": [
+    "Gain a free [Sistine Chapel] [in capital]",
+    "Gain a free [Forbidden Palace] [in capital]",
+    "Gain a free [Leaning Tower of Pisa] [in capital]",
+    "Gain a free [Himeji Castle] [in capital]",
+    "Gain a free [Taj Mahal] [in capital]",
+    "Gain a free [Porcelain Tower] [in capital]",
+    "Gain a free [Kremlin] [in capital]",
+	"Production to [Culture] conversion in cities changed by [100]%",
+	"Enables conversion of city production to [Faith]"
+    ]
+  },
+{
+  "name": "Wonder Pack: Industrial Era",
+  "greatPersonPoints": {"Great Architect": 3},
+  "requiredTech": "Replaceable Parts",
+  "uniqueTo": "Amogus",
+  "culture": 10,
+  "cost": 4000,
+  "isWonder": true,
+  "uniques": [
+    "Gain a free [The Louvre] [in capital]",
+    "Gain a free [Big Ben] [in capital]",
+    "Gain a free [Brandenburg Gate] [in capital]",
+	"Production to [Culture] conversion in cities changed by [200]%",
+	"Production to [Faith] conversion in cities changed by [300]%",
+	"[+100]% Great Person generation [in this city]",
+	"Provides [25] [Iron]",
+	"Provides [15] [Horses]",
+	"Provides [10] [Coal]",
+	"Provides [10] [Oil]",
+	"Provides [5] [Aluminium]",
+	"Provides [5] [Uranium]"
+    ]
+  },
+{
+  "name": "Wonder Pack: Modern Era",
+  "greatPersonPoints": {"Great Thinker": 6},
+  "requiredTech": "Atomic Theory",
+  "uniqueTo": "Amogus",
+  "culture": 10,
+  "cost": 4500,
+  "isWonder": true,
+  "uniques": [
+    "Gain a free [Eiffel Tower] [in capital]",
+    "Gain a free [Statue of Liberty] [in capital]",
+    "Gain a free [Neuschwanstein] [in capital]",
+    "Gain a free [Cristo Redentor] [in capital]",
+	"[100]% [Strategic] resource production",
+	"[+2] Movement",
+	"[+5] population [in your cities]",
+	"[+2 Production] from [River] tiles [in your cities]",
+	"[+10 Culture] per every [5] [Happiness]",
+	"[+5 Faith] per every [2] [Happiness]"
+    ]
+  },
+{
+  "name": "Wonder Pack: Atomic Era",
+  "greatPersonPoints": {"Great Thinker": 7},
+  "requiredTech": "Robotics",
+  "uniqueTo": "Amogus",
+  "culture": 10,
+  "cost": 4000,
+  "isWonder": true,
+  "uniques": [
+    "Gain a free [Pentagon] [in capital]",
+    "Gain a free [Sydney Opera House] [in capital]",
+    "Gain a free [Great Firewall] [in capital]",
+	"[+5]% [Culture] from every [Snow Boost]",
+	"[+1 Faith] per [1] population [in your cities]"
+    ]
+  },
+{
+  "name": "Wonder Pack: Information Era",
+  "greatPersonPoints": {"Great Thinker": 8},
+  "requiredTech": "Nanotechnology",
+  "uniqueTo": "Amogus",
+  "culture": 10,
+  "cost": 4500,
+  "isWonder": true,
+  "uniques": [
+    "Gain a free [CN Tower] [in capital]",
+    "Gain a free [Hubble Space Telescope] [in capital]",
+    "Gain a free [United Nations] [in capital]"
+	"[+100]% Production towards any buildings that already exist in the Capital",
+	"Production to [Culture] conversion in cities changed by [300]%",
+	"Production to [Faith] conversion in cities changed by [400]%",
+	"[+2 Gold] per [1] population [in your cities]",
+	"[+1 Culture] per [2] population [in your cities]"
+    ]
+  },
+  {
+    "name": "Wonder Pack (Modded): Ancient Era",
+	"greatPersonPoints": {"Great Thinker": 5},
+    "uniqueTo": "Amogus",
+    "culture": 10,
+    "cost": 2405,
+    "isWonder": true,
+    "uniques": [
+      "Gain a free [Abu Simbel] [in capital]",
+      "Gain a free [Baffin Island Inukshuks] [in capital]",
+      "Gain a free [Bananue Rice Terraces] [in capital]",
+      "Gain a free [Cheomseongdae] [in capital]",
+      "Gain a free [Chogha Zanbil] [in capital]",
+      "Gain a free [Gobekli Tepe] [in capital]",
+      "Gain a free [Great Sphinx] [in capital]",
+      "Gain a free [Gunung Padang] [in capital]",
+      "Gain a free [Karnak] [in capital]",
+      "Gain a free [Mesa Verde] [in capital]",
+      "Gain a free [Nazca Geoglyphs] [in capital]",
+      "Gain a free [Temple of Obelisks] [in capital]",
+      "Gain a free [Wurdi Youang] [in capital]",
+	  "[+1 Production] per [1] population [in your cities]",
+	  "[+1 Culture] per [1] population [in your cities]",
+	  "[+2 Gold] per [1] population [in your cities]",
+	  "[+1 Happiness] per [10] population [in your cities]"
+	  "Receive [+200]% Gold from Barbarian encampments and pillaging Cities"
+    ]
+  },
+  {
+    "name": "Wonder Pack (Modded): Classical Era",
+	"greatPersonPoints": {"Great Architect": 8},
+    "uniqueTo": "Amogus",
+    "culture": 10,
+    "cost": 4000,
+    "isWonder": true,
+    "uniques": [
+      "Gain a free [Basilica de Leptis Magna] [in capital]",
+      "Gain a free [Buddhas of Bamiyan] [in capital]",
+      "Gain a free [Cairo Citadel] [in capital]",
+      "Gain a free [Castel Sant' Angelo] [in capital]",
+      "Gain a free [Chóngshèng Sì Sāntǎ] [in capital]",
+      "Gain a free [Dà Yùnhé] [in capital]",
+      "Gain a free [El Tajin] [in capital]",
+      "Gain a free [Gate of the Sun] [in capital]",
+      "Gain a free [Gonabad Qanat] [in capital]",
+      "Gain a free [Great Omari Mosque] [in capital]",
+      "Gain a free [Hōryū-ji] [in capital]",
+      "Gain a free [Mada'in Saleh] [in capital]",
+      "Gain a free [Naqsh-e Rostam] [in capital]",
+      "Gain a free [Nishiyama Onsen Keiunkan] [in capital]",
+      "Gain a free [Taq Kasra] [in capital]",
+      "Gain a free [Temple of Gamla Uppsala] [in capital]",
+	  "[+5 Production] from [improved] tiles [in your cities]",
+	  "[+5 Gold] from [improved] tiles [in your cities]",
+	  "[+10 Culture] from [improved] tiles [in your cities]",
+	  "[+25]% [Happiness] [in your cities]"
+    ]
+  },
+  {
+    "name": "Wonder Pack (Modded): Medieval Era",
+	"greatPersonPoints": {"Great Thinker": 10},
+    "uniqueTo": "Amogus",
+    "culture": 10,
+    "cost": 6300,
+    "isWonder": true,
+    "uniques": [
+      "Gain a free [Churches of Lalibela] [in capital]",
+      "Gain a free [Dyrehavsbakken] [in capital]",
+      "Gain a free [Great Canals of Venice] [in capital]",
+      "Gain a free [Great Mosque of Aleppo] [in capital]",
+      "Gain a free [Gulou] [in capital]",
+      "Gain a free [Krak des Chevaliers] [in capital]",
+      "Gain a free [Leshan Giant Buddha] [in capital]",
+      "Gain a free [Malwiya Minaret] [in capital]",
+      "Gain a free [Menara Kudus Mosque] [in capital]",
+      "Gain a free [Nan Madol] [in capital]",
+      "Gain a free [Qhapaq Nan] [in capital]",
+      "Gain a free [Rani Ki Vav] [in capital]",
+      "Gain a free [Royal Court of Tiébélé] [in capital]",
+      "Gain a free [Shwedagon Paya] [in capital]",
+      "Gain a free [Stone Town] [in capital]",
+      "Gain a free [Thermae Antoninianae] [in capital]",
+      "Gain a free [Tōdai-ji] [in capital]",
+      "Gain a free [Ulugh Beg's Madrasa] [in capital]",
+      "Gain a free [University of Sankore] [in capital]",
+      "Gain a free [Westminster Abbey] [in capital]",
+      "Gain a free [Yellow Crane Tower] [in capital]",
+	  "[+100]% [Production] [in this city]",
+	  "[+100]% [Gold] [in this city]",
+	  "[+100]% [Happiness] [in this city]",
+	  "[+25]% [Culture] [in your cities]",
+	  "[+5]% [Gold] from every [Buildings] <in cities connected to the capital>"
+    ]
+  },
+  {
+    "name": "Wonder Pack (Modded): Renaissance Era",
+	"greatPersonPoints": {"Great Architect": 16},
+    "uniqueTo": "Amogus",
+    "culture": 10,
+    "cost": 9500,
+    "isWonder": true,
+    "uniques": [
+      "Gain a free [Aït Benhaddou] [in capital]",
+      "Gain a free [Amphawa Floating Market] [in capital]",
+      "Gain a free [Buda Castle] [in capital]",
+      "Gain a free [Changdeokgung] [in capital]",
+      "Gain a free [Elmina Castle] [in capital]",
+      "Gain a free [Gripsholm Castle] [in capital]",
+      "Gain a free [Haji Ali Dargah] [in capital]",
+      "Gain a free [Hawa Mahal] [in capital]",
+      "Gain a free [Kronborg] [in capital]",
+      "Gain a free [Pu'ukohola Heiau] [in capital]",
+      "Gain a free [Rova of Antananarivo] [in capital]",
+      "Gain a free [Santa Maria del Fiore] [in capital]",
+      "Gain a free [Santa Maria delle Grazie] [in capital]",
+      "Gain a free [Tlachihualtepetl] [in capital]",
+      "Gain a free [Tomb of Humayun] [in capital]",
+      "Gain a free [Topkapı Palace] [in capital]",
+      "Gain a free [Torre del Oro] [in capital]",
+      "Gain a free [Uraniborg] [in capital]",
+      "Gain a free [Wat Arun] [in capital]",
+	  "[3] free [Great Thinker] units appear",
+	  "[+1]% [Production] from every [worked] <in [in your cities] cities>",
+	  "[-10]% XP required for promotions"
+    ]
+  },
+  {
+    "name": "Wonder Pack (Modded): Industrial Era",
+	"greatPersonPoints": {"Great Architect": 32},
+    "uniqueTo": "Amogus",
+    "culture": 10,
+    "cost": 9750,
+    "isWonder": true,
+    "uniques": [
+      "Gain a free [Avenue Habib Bourguiba] [in capital]",
+      "Gain a free [Casa Rosada] [in capital]",
+      "Gain a free [Citadelle Laferrière] [in capital]",
+      "Gain a free [Cologne Cathedral] [in capital]",
+      "Gain a free [Democracy Monument] [in capital]",
+      "Gain a free [La Maestranza] [in capital]",
+      "Gain a free [Pena National Palace] [in capital]",
+      "Gain a free [Potala Palace] [in capital]",
+      "Gain a free [Tahrir Square] [in capital]",
+      "Gain a free [Turing Complete AI] [in capital]",
+	  "Gain a free [Hivemind] [in your cities]",
+	  "[+10 Production] per [1] population [in this city]",
+	  "[+5]% [Happiness] from every [Buildings]",
+	  "[+10]% [Happiness] from every [Wonders]",
+	  "[+1 Production] per every [1] [Happiness]",
+	  "[+1 Culture] per every [1] [Happiness]"
+    ]
+  },
+  {
+    "name": "Wonder Pack (Modded): Modern Era",
+	"greatPersonPoints": {"Great Thinker": 20},
+    "uniqueTo": "Amogus",
+    "culture": 10,
+    "cost": 13780,
+    "isWonder": true,
+    "uniques": [
+      "Gain a free [Anıtkabir] [in capital]",
+      "Gain a free [Bletchley Park] [in capital]",
+      "Gain a free [Brooklyn Bridge] [in capital]",
+      "Gain a free [Catedral de Sal] [in capital]",
+      "Gain a free [Darjeeling Himalayan Railway] [in capital]",
+      "Gain a free [Delta Works] [in capital]",
+      "Gain a free [Empire State Building] [in capital]",
+      "Gain a free [Escadaria Selarón] [in capital]",
+      "Gain a free [Hollywood] [in capital]",
+      "Gain a free [Kansai International Airport] [in capital]",
+      "Gain a free [OPEC] [in capital]",
+      "Gain a free [Pearl Monument] [in capital]",
+      "Gain a free [Rockefeller Center] [in capital]",
+	  "[+200]% Great Person generation [in your cities]",
+	  "[+200]% Natural religion spread [in holy cities]",
+	  "[+10] XP gained from combat",
+	  "[+2 Production] from all [Buildings] buildings <in [in your cities] cities>",
+	  "[-100]% City-State Influence degradation"
+    ]
+  },
+  {
+    "name": "Wonder Pack (Modded): Atomic Era",
+	"greatPersonPoints": {"Great Thinker": 40},
+    "uniqueTo": "Amogus",
+    "culture": 10,
+    "cost": 25000,
+    "isWonder": true,
+    "uniques": [
+      "Gain a free [Rock 'n' Roll] [in capital]",
+      "Gain a free [Al Wusta Oryx Sanctuary] [in capital]",
+      "Gain a free [Arecibo Observatory] [in capital]",
+      "Gain a free [Channel Tunnel] [in capital]",
+      "Gain a free [Great Man-Made River] [in capital]",
+      "Gain a free [Internet] [in capital]",
+      "Gain a free [London Eye] [in capital]",
+      "Gain a free [Baháʼí Lotus Temple] [in capital]",
+      "Gain a free [Martin Luther King Memorial] [in capital]",
+      "Gain a free [Millau Viaduct] [in capital]",
+      "Gain a free [Monas Monument] [in capital]",
+      "Gain a free [Sky Tower] [in capital]",
+      "Gain a free [Statue of Unity] [in capital]",
+      "Gain a free [Taipei 101] [in capital]",
+      "Gain a free [The Memphis Pyramid] [in capital]",
+      "Gain a free [The Motherland Calls] [in capital]",
+      "Gain a free [Tomb of the Unknown Soldier] [in capital]",
+      "Gain a free [White Sands Missile Range] [in capital]"
+      "Gain a free [Abraj al Bait Towers] [in capital]",
+      "Gain a free [Oriental Pearl Tower] [in capital]",
+      "Gain a free [Tokyo Sky Tree] [in capital]",
+	  "[+100]% [Faith] [in your cities]"
+	  "[+100]% [Gold] from every [Great Improvement] <in [in your cities] cities>"
+	  "[+100]% [Production] from every [Great Improvement] <in [in your cities] cities>"
+	  "[+100]% [Faith] from every [Great Improvement] <in [in your cities] cities>"
+	  "Free [Great Thinker] appears <upon conquering a city>"
+    ]
+  }
 ]
